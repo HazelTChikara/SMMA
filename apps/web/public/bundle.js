@@ -23530,7 +23530,7 @@
 
   // app/page.tsx
   var import_react = __toESM(require_react());
-  var API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+  var API_URL = "http://127.0.0.1:8000";
   var features = [
     ["\u2726", "AI Content Studio", "Create platform-ready posts, captions, hooks, scripts, and ad copy in every client\u2019s brand voice."],
     ["\u25CE", "Intelligent Lead Finder", "Discover prospects and use AI qualification scoring to focus on your best opportunities."],
