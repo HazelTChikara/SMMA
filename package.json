@@ -1,0 +1,11 @@
+{
+  "name": "smma-enterprise-platform",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "pnpm --filter @smma/web dev",
+    "lint": "pnpm --filter @smma/api lint && pnpm --filter @smma/web lint",
+    "test": "pnpm --filter @smma/api test && pnpm --filter @smma/web test"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
